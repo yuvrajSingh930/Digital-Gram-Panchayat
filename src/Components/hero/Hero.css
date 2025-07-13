@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 1280px) {
+  .xl\:w-1\/2 myCss {
+    width: 60%;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:py-32 myCss {
+    padding-top: 70px;
+    padding-bottom: 8rem;
+  }
+}
+.myCss {
+  height: -webkit-fill-available !important;
+  /* margin-left: 14rem !important; */
+}

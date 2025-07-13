@@ -1,0 +1,50 @@
+/* Container styling */
+.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Paragraph styling */
+.user-profile-container p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Button styling */
+.user-profile-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 5px;
+}
+
+.user-profile-container button:hover {
+  background-color: #0056b3;
+}
+
+.user-profile-container button:active {
+  transform: scale(0.98);
+}
+
+/* Delete button specific styling */
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

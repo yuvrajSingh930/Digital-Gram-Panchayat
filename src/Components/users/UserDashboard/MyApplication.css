@@ -1,0 +1,68 @@
+/* Container for the applications */
+.my-applications {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Heading for the section */
+.my-applications h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Message when no applications are present */
+.my-applications p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Unordered list styles */
+.my-applications ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual list item styles */
+.my-applications .application-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.my-applications .application-item h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.my-applications .application-item h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.my-applications .application-item p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+/* Optional: Add a hover effect for the list items */
+.my-applications .application-item:hover {
+  background-color: #f1f1f1;
+  border-color: #bbb;
+}
+.my-applications-heading {
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}

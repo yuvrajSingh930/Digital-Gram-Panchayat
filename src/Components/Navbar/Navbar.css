@@ -1,0 +1,58 @@
+/* Navbar.css */
+
+.navbar {
+  /* background-color: #343a40;  */
+  background-color: #6f42c1 !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link,
+.navbar-brand,
+.nav-dropdown .dropdown-item {
+  color: #ffffff !important; /* White text */
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: #000000 !important; /* Primary blue on hover */
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px; /* Spacing between links */
+}
+
+.bi-cart {
+  font-size: 1.2rem;
+}
+.addcss {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+button.btn.btn-outline-success {
+  --bs-btn-border-color: #ffffff;
+  color: white;
+}
+button.btn.btn-outline-success:hover {
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-hover-border-color: #ffffff;
+  background-color: #6f42c1 !important;
+  color: #000000;
+  /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+}
+/* testing */
+nav.shadow-sm.navbar.navbar-expand-md.navbar-dark.bg-dark {
+  position: sticky;
+  top: 0px;
+  /* left: 2px; */
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+a#collapsible-nav-dropdown {
+  display: flex;
+  align-items: center;
+}
